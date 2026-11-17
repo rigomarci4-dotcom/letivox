@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LetivoX — Letöltés</title>
+<style>
+  :root { --bg:#ffffff; --fg:#111827; --muted:#4b5563; --accent:#0891b2; --card:#f3f4f6; --btn:#0e86b8; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0b1020; --fg:#e5e7eb; --muted:#9ca3af; --accent:#22d3ee; --card:#151b30; --btn:#0e86b8; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 20px 64px; }
+  h1 { color:var(--accent); margin-bottom:4px; }
+  h2 { margin-top:0; font-size:1.2rem; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  a { color:var(--accent); }
+  .card { background:var(--card); border-radius:14px; padding:20px; margin:20px 0; }
+  .btn { display:inline-block; background:var(--btn); color:#fff !important; text-decoration:none; font-weight:700;
+         padding:12px 22px; border-radius:12px; margin-top:8px; }
+  ol li { margin-bottom:6px; }
+  .note { border-left:4px solid var(--accent); padding:8px 14px; margin:14px 0; color:var(--muted); }
+  mark { background:#fde047; color:#111; padding:0 4px; border-radius:4px; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>LetivoX letöltése</h1>
+<p class="muted">AI-alapú gyermekbiztonsági alkalmazás 6–14 éves gyerekeknek és szüleiknek.</p>
+
+<div class="card">
+  <h2>📱 iPhone (iOS)</h2>
+  <p>Töltsd le az App Store-ból:</p>
+  <a class="btn" href="https://apps.apple.com/us/app/letivox/id6814249088">Letöltés az App Store-ból</a>
+</div>
+
+<div class="card">
+  <h2>🤖 Android</h2>
+  <p>Az Android-verziót közvetlenül erről az oldalról tudod telepíteni (APK fájl).</p>
+  <!-- FONTOS: a link a GitHub Releases-ben feltöltött fájlra mutat. Cseréld a saját tárolód nevére, ha eltér. -->
+  <a class="btn" href="https://github.com/rigomarci4-dotcom/letivox/releases/latest/download/LetivoX.apk">APK letöltése</a>
+  <p class="muted">Verzió: <mark>[1.2.0]</mark></p>
+
+  <h2 style="margin-top:24px">Telepítés lépésről lépésre</h2>
+  <ol>
+    <li>Nyisd meg ezt az oldalt az Android telefonodon, és koppints az <strong>APK letöltése</strong> gombra.</li>
+    <li>Ha a telefon figyelmeztet, hogy a böngésző nem telepíthet ismeretlen forrásból származó appokat, koppints a <strong>Beállítások</strong> gombra, és engedélyezd a telepítést az adott böngészőnek (pl. Chrome).</li>
+    <li>Nyisd meg a letöltött <strong>LetivoX.apk</strong> fájlt, és koppints a <strong>Telepítés</strong> gombra.</li>
+    <li>Ha a Google Play Protect figyelmeztetést mutat, mert az app nem a Play Áruházból származik, a <strong>További részletek</strong> alatt válaszd a <strong>Telepítés mindenképp</strong> lehetőséget.</li>
+    <li>Indítsd el a LetivoX appot, és regisztrálj szülőként vagy gyermekként.</li>
+  </ol>
+
+  <div class="note">
+    Csak erről az oldalról töltsd le az appot, más forrásból származó fájlt ne telepíts. A telepítés után a böngésző engedélyét visszavonhatod a telefon beállításaiban.
+  </div>
+
+  <p class="muted">Az Androidos előfizetés hamarosan elérhető lesz. Addig az app ingyenes funkciói használhatók.</p>
+</div>
+
+<p class="muted">
+  <a href="terms.html">Felhasználási feltételek</a> ·
+  <a href="./">Adatvédelmi tájékoztató</a> ·
+  Kapcsolat: <a href="mailto:letivosupport@gmail.com">letivosupport@gmail.com</a>
+</p>
+
+</main>
+</body>
+</html>
